@@ -17,7 +17,7 @@ window.onscroll = () => {
 
   mainSection.forEach((v, i) => {
     let rect = v.getBoundingClientRect().y;
-    if (rect < window.innerHeight - 200) {
+    if (rect < window.innerHeight - 300) {
       menuSection.forEach((v) => v.classList.remove("active"));
       menuSection[i].classList.add("active");
     }
