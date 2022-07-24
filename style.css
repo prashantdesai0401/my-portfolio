@@ -276,7 +276,26 @@ i {
 
 @media (max-width: 1024px) {
   .sidebar {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 1;
+    width: 100%;
+    height: 20%;
+    z-index: 1;
+  }
+
+  .links {
     display: none;
+  }
+
+  .resume {
+    display: inline-block;
+    margin: 1.2rem 4rem;
+  }
+
+  i {
+    padding-right: 12px;
   }
 }
 
