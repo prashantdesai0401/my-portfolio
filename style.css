@@ -293,14 +293,41 @@ i {
     display: inline-block;
     margin: 1.2rem 4rem;
   }
-
   i {
     padding-right: 12px;
+  }
+
+  #about-sec {
+    /* max-width: fit-content; */
+    padding-top: 10rem;
+    margin-left: 12.5%;
+    /* margin-bottom: 100px; */
   }
 }
 
 @media (max-width: 720px) {
-  .sidebar {
-    display: none;
+  .resume {
+    display: inline-block;
+    margin: 0.5rem 2rem;
+  }
+  i {
+    padding-right: 12px;
+  }
+
+  #about-sec .its-me {
+    display: flex;
+    flex-direction: column;
+
+    /* margin-top: 220px;
+  margin-left: 120px; */
+  }
+
+  .skills-div {
+    margin-left: 12.5%;
+  }
+  .icons {
+    display: flex;
+    gap: 120px;
+    margin-left: 12.5%;
   }
 }
