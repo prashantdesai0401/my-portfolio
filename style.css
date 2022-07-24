@@ -326,7 +326,7 @@ i {
   }
 
   .skills-div {
-    margin-left: 12.5%;
+    margin-left: 1rem;
   }
   .icons {
     display: flex;
@@ -335,10 +335,10 @@ i {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 480px) {
   .sidebar {
     display: block;
-    position: fixed;
+    position: relative;
     left: 0;
     top: 1;
     width: 100%;
@@ -351,8 +351,8 @@ i {
   }
 
   .resume {
-    display: inline-block;
-    margin: 0.5rem 4rem;
+    position: absolute;
+    margin-left: 25%;
   }
   i {
     padding-right: 12px;
@@ -360,8 +360,55 @@ i {
 
   #about-sec {
     /* max-width: fit-content; */
-    padding-top: 10rem;
+    padding-top: 1rem;
     margin-left: 12.5%;
     /* margin-bottom: 100px; */
+  }
+
+  #projects-sec {
+    padding-top: 1rem;
+    margin-top: 12.5rem;
+  }
+
+  #skills-sec {
+    padding-top: 1.25rem;
+    padding-bottom: 2.5rem;
+  }
+  .skills-div {
+    margin-left: 1rem;
+    display: flex;
+  }
+
+  .skills-div h2 {
+    font-size: 2rem;
+  }
+
+  .core-skills ul {
+    padding-inline-start: 0px;
+    list-style: none;
+  }
+
+  .core-skills li {
+    font-size: 1rem;
+    padding-bottom: 12px;
+  }
+  .tools {
+    margin-left: 60px;
+  }
+
+  .tools ul {
+    padding-inline-start: 0px;
+    list-style: none;
+  }
+
+  .tools li {
+    font-size: 1rem;
+    font-family: var(--san-serif);
+    padding-bottom: 12px;
+  }
+
+  .icons {
+    gap: 40px;
+    margin-left: 10%;
   }
 }
