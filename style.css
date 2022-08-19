@@ -137,12 +137,13 @@ i {
 #place {
   color: var(--black);
   font-family: var(--san-serif);
+
   margin-top: -0.6rem;
   font-size: 1.2rem;
 }
 
 #about-sec i {
-  color: chocolate;
+  color: var(--black);
 }
 
 /* Projects Section */
