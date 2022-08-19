@@ -126,26 +126,18 @@ i {
 }
 
 #about-sec h2 {
-  font-size: 1.6rem;
-  font-family: var(--serif);
+  font-size: 1.4rem;
+  font-family: var(--san-serif);
   font-weight: 700;
   color: chocolate;
-  margin-top: -8px;
-}
-
-#about-sec p {
-  color: var(--black);
-  font-family: var(--san-serif);
-  margin-top: 1rem;
-  max-width: 500px;
-  font-size: 1.2rem;
-  line-height: 1.6;
+  line-height: 2.4rem;
+  margin-top: 1px;
 }
 
 #place {
   color: var(--black);
   font-family: var(--san-serif);
-  margin-top: 2rem;
+  margin-top: -0.6rem;
   font-size: 1.2rem;
 }
 
